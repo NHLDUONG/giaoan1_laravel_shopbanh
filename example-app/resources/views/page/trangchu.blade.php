@@ -58,8 +58,11 @@
 												<span class="flash-sale">{{number_format($new->promotion_price)}} đồng</span>
 											@endif
 											</p>
+
+											
 										</div>
 										<div class="single-item-caption">
+										<div class="zalo-share-button" data-href="{{route('chitietsanpham',$new->id)}}" data-oaid="3352431969490981124" data-layout="1" data-color="blue" data-customize="false"></div>
 											<a class="add-to-cart pull-left" href="{{route('themgiohang',$new->id)}}"><i class="fa fa-shopping-cart"></i></a>
 											<a class="beta-btn primary" href="{{route('chitietsanpham',$new->id)}}">Details <i class="fa fa-chevron-right"></i></a>
 											<div class="clearfix"></div>
